@@ -4,12 +4,12 @@ export default function Features() {
   return (
     <div>
       <section className="pt-28 pb-40 bg-white overflow-hidden">
-        <div className="container px-4 mx-auto">
-          <h2 className="mb-20 text-6xl md:text-8xl xl:text-10xl font-bold font-heading tracking-px-n leading-none">
+        <div className="container px-10 mx-auto">
+          <h2 className="mb-20  text-6xl md:text-8xl xl:text-10xl font-bold font-heading tracking-px-n leading-none">
             Empower Your Financial Journey Abroad
           </h2>
-          <div className="flex flex-wrap xl:items-center  xl:-m-10">
-            <div className="w-full md:w-1/2 xl:w-auto p-8 xl:p-10">
+          <div className="flex flex-wrap xl:items-start  ">
+            <div className="w-full  ">
               <a className="block overflow-hidden rounded-3xl" href="#">
                 <img
                   className="w-full transform hover:scale-105 transition ease-in-out duration-1000"
@@ -18,7 +18,7 @@ export default function Features() {
                 />
               </a>
             </div>
-            <div className="w-full  p-8 xl:p-10">
+            <div className="w-full  p-8 ">
               <div className="">
                 <div className="mb-11 pb-20 border-b">
                   <h3 className="text-lg font-semibold md:max-w-xl">
@@ -27,8 +27,8 @@ export default function Features() {
                     migrant workers going abroad.
                   </h3>
                 </div>
-                <div className="flex flex-wrap ">
-                  <div className="w-auto md:w-1/3 p-8">
+                <div className="flex flex-wrap flex-row gap-12">
+                  <div className="w-auto md:w-1/3 ">
                     <div className="md:max-w-xs">
                       <h3 className="mb-4 text-lg text-[#004AAD] font-semibold">
                         Expert Financial Advice
@@ -40,7 +40,7 @@ export default function Features() {
                       </p>
                     </div>
                   </div>
-                  <div className="w-auto md:w-1/3 p-8">
+                  <div className="w-auto md:w-1/3 8">
                     <div className="md:max-w-xs">
                       <h3 className="mb-4 text-lg text-[#004AAD] font-semibold">
                         Flexible Repayment Options
@@ -53,7 +53,7 @@ export default function Features() {
                       </p>
                     </div>
                   </div>
-                  <div className="w-auto md:w-1/3 p-8">
+                  <div className="w-auto md:w-1/3 ">
                     <div className="md:max-w-xs">
                       <h3 className="mb-4 text-lg text-[#004AAD] font-semibold">
                         Competitive Interest Rates

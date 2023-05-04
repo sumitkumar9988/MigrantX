@@ -6,8 +6,8 @@ export default function About() {
   return (
     <div>
       <section className="relative pt-28 pb-32 bg-black overflow-hidden">
-        <div className="relative  container px-8 mx-auto">
-          <div className="mb-12 border-b border-white border-opacity-10">
+        <div className="relative  container px-10  mx-auto">
+          <div className="mb-12 border-b border-white border-opacity-10 ">
             <h2 className=" text-6xl md:text-8xl xl:text-10xl text-white font-bold tracking-px-n leading-none md:max-w-3xl">
               We Make Your Dreams a Reality
             </h2>

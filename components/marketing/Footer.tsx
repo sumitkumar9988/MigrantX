@@ -32,8 +32,8 @@ export default function Footer() {
               </div>
             </div>
             <div className="w-full md:w-1/2 p-8">
-              <div className="flex flex-wrap  mb-10">
-                <div className="w-full sm:w-1/3 p-8">
+              <div className="flex flex-wrap gap-8  mb-10">
+                <div className="w-full sm:w-1/3 ">
                   <ul>
                     <li className="mb-3.5">
                       <a
@@ -69,7 +69,7 @@ export default function Footer() {
                     </li>
                   </ul>
                 </div>
-                <div className="w-full sm:w-1/3 p-8">
+                <div className="w-full sm:w-1/3 ">
                   <ul>
                     <li className="mb-3.5">
                       <a
@@ -97,7 +97,7 @@ export default function Footer() {
                     </li>
                   </ul>
                 </div>
-                <div className="w-full sm:w-1/3 p-8">
+                <div className="w-full sm:w-1/3 ">
                   <ul>
                     <li className="mb-3.5">
                       <a
